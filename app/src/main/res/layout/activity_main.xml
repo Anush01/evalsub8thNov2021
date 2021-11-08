@@ -24,17 +24,17 @@
         />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/gotoRandomUserActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/gotoRandomUserActivity"
         android:layout_below="@+id/FirstTimeSetup"
-        android:backgroundTint="@color/buttonyellow"
         android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/buttonyellow"
+        android:padding="20dp"
         android:text="@string/go_to_random_user_activity"
         android:textAllCaps="false"
-        android:textSize="20sp"
         android:textColor="@color/black"
-        android:padding="20dp"
-        app:cornerRadius="30dp"/>
+        android:textSize="20sp"
+        app:cornerRadius="30dp" />
 
 </RelativeLayout>
