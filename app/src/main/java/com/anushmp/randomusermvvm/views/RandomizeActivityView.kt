@@ -85,7 +85,7 @@ class RandomizeActivityView : AppCompatActivity() {
                     "\n"+it.infopage+
                     "\n"+it.infoversion+"\n"
 
-            username.text = it.ResponseNamefirst
+            username.text = out
 
         })
 
