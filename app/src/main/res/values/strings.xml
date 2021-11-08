@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RandomUserMvvm</string>
+    <string name="placeholderusername">UserName Should Show up here</string>
+    <string name="randomuserbutton">Get Random User</string>
 </resources>
