@@ -2,4 +2,6 @@
     <string name="app_name">RandomUserMvvm</string>
     <string name="placeholderusername">UserName Should Show up here</string>
     <string name="randomuserbutton">Get Random User</string>
+    <string name="go_to_random_user_activity">Go to random User activity</string>
+    <string name="setup_random_user_activity">Setup Random User Activity</string>
 </resources>

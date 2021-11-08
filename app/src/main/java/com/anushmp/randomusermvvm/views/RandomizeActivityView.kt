@@ -3,9 +3,9 @@ package com.anushmp.randomusermvvm.views
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.anushmp.randomusermvvm.R
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_randomize_view.*
 
-class RandomUserView : AppCompatActivity() {
+class RandomizeActivityView : AppCompatActivity() {
 
     //textviews
     //username
@@ -16,16 +16,18 @@ class RandomUserView : AppCompatActivity() {
     //FirstTimeSetup
     //gotorandomuseractivity
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-
-
-
-
+        setContentView(R.layout.activity_randomize_view)
     }
 
 
+    private fun setupviews() {
+
+        getrandomuser.setOnClickListener {
+
+
+        }
+
+    }
 }

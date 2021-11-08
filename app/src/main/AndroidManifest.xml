@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RandomUserMvvm">
         <activity
+            android:name=".views.RandomizeActivityView"
+            android:exported="true" />
+        <activity
             android:name=".views.RandomUserView"
             android:exported="true">
             <intent-filter>
