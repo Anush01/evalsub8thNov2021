@@ -15,7 +15,7 @@ data class RandomUserEntity(
     @ColumnInfo(name = "Namelast")
     var ResponseNamelast:String,
     @ColumnInfo(name = "LocationStreetNumber")
-    var ResponseLocationStreetNumber:Int,
+    var ResponseLocationStreetNumber:String,
     @ColumnInfo(name = "LocationStreetName")
     var ResponseLocationStreetName:String,
     @ColumnInfo(name = "LocationCity")
@@ -25,11 +25,11 @@ data class RandomUserEntity(
     @ColumnInfo(name = "LocationCountry")
     var ResponseLocationCountry:String,
     @ColumnInfo(name = "Locationpostcode")
-    var ResponseLocationpostcode:Int,
+    var ResponseLocationpostcode:String,
     @ColumnInfo(name="LocationCoordinatesLatitude")
-    var ResponseLocationCoordinatesLatitude:Int,
+    var ResponseLocationCoordinatesLatitude:String,
     @ColumnInfo(name = "LocationCoordinatesLongitude")
-    var ResponseLocationCoordinatesLongitude:Int,
+    var ResponseLocationCoordinatesLongitude:String,
     @ColumnInfo(name = "LocationTimeZoneOffset")
     var ResponseLocationTimezoneOffset:String,
     @ColumnInfo(name = "LocationTimezoneDescription")
@@ -53,19 +53,19 @@ data class RandomUserEntity(
     @ColumnInfo(name = "DOBdate")
     var ResponseDOBdate:String,
     @ColumnInfo(name = "DOBage")
-    var ResponseDOBage:Int,
+    var ResponseDOBage:String,
     @ColumnInfo(name = "RegisteredDate")
     var ResponseRegisteredDate:String,
     @ColumnInfo(name = "RegisteredAge")
-    var ResponseRegisteredAge:Int,
+    var ResponseRegisteredAge:String,
     @ColumnInfo(name = "phone")
-    var Responsephone:Int,
+    var Responsephone:String,
     @ColumnInfo(name = "cell")
-    var Responsecell:Int,
+    var Responsecell:String,
     @ColumnInfo(name = "IDName")
     var ResponseIDName:String,
     @ColumnInfo(name = "IDValue")
-    var ResponseIDValue:Int,
+    var ResponseIDValue:String,
     @ColumnInfo(name = "PictureLarge")
     var ResponsePictureLarge:String,
     @ColumnInfo(name = "PictureMedium")
@@ -77,11 +77,11 @@ data class RandomUserEntity(
     @ColumnInfo(name = "infoseed")
     var infoseed:String,
     @ColumnInfo(name = "inforesults")
-    var inforesults:Int,
+    var inforesults:String,
     @ColumnInfo(name = "infopage")
-    var infopage:Int,
+    var infopage:String,
     @ColumnInfo(name = "infoversion")
-    var infoversion:Int
+    var infoversion:String
 
 ){
 

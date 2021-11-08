@@ -36,8 +36,8 @@ class RandomUserViewModel(val repo:RandomUserRepository): ViewModel() {
                 response.location.state,
                 response.location.country,
                 response.location.postcode,
-                response.location.coordinates.latitude.toInt(),
-                response.location.coordinates.longitude.toInt(),
+                response.location.coordinates.latitude,
+                response.location.coordinates.longitude,
                 response.location.timezone.offset,
                 response.location.timezone.description,
                 response.email,
@@ -63,7 +63,7 @@ class RandomUserViewModel(val repo:RandomUserRepository): ViewModel() {
                 info.seed,
                 info.results,
                 info.page,
-                info.version.toInt()
+                info.version
 
             )
 
@@ -94,8 +94,8 @@ class RandomUserViewModel(val repo:RandomUserRepository): ViewModel() {
                 response.location.state,
                 response.location.country,
                 response.location.postcode,
-                response.location.coordinates.latitude.toInt(),
-                response.location.coordinates.longitude.toInt(),
+                response.location.coordinates.latitude,
+                response.location.coordinates.longitude,
                 response.location.timezone.offset,
                 response.location.timezone.description,
                 response.email,
@@ -121,7 +121,7 @@ class RandomUserViewModel(val repo:RandomUserRepository): ViewModel() {
                 info.seed,
                 info.results,
                 info.page,
-                info.version.toInt()
+                info.version
 
             )
 

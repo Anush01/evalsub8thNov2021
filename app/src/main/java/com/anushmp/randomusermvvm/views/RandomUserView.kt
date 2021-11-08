@@ -24,6 +24,8 @@ class RandomUserView : AppCompatActivity() {
     //FirstTimeSetup
     //gotorandomuseractivity
 
+    //changing all the ints and doubles to Strings.
+
     lateinit var dao:RandomUserDao
     lateinit var repo:RandomUserRepository
     lateinit var viewModelFactory: ViewModelProvider.Factory
