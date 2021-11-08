@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RandomUserMvvm">
         <activity
-            android:name=".RandomUserView"
+            android:name=".views.RandomUserView"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
