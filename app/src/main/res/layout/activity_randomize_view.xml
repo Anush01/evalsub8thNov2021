@@ -19,7 +19,7 @@
             android:gravity="center"
             android:text="@string/placeholderusername"
             android:textColor="@color/white"
-            android:textSize="35sp"
+            android:textSize="8sp"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
